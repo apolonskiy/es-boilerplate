@@ -9,23 +9,11 @@ import {
 
 import Entity from '../after/entityManager';
 
-// Create instance for man
-const man = new Entity({
-    id: 0,
-    firstName: 'Tomas',
-    lastName: 'Anderson',
-    age: 32,
-    sex: 'male'
-});
+//Create instance for man
+const man =new Entity( { id: 0, firstName: 'Tomas', lastName: 'Anderson', age: 32, sex: 'male' });
 
 // Create instance for woman
-const woman = new Entity({
-    id: 1,
-    firstName: 'Lisa',
-    lastName: 'Black',
-    age: 18,
-    sex: 'female'
-});
+const woman = new Entity({ id: 1, firstName: 'Lisa', lastName: 'Black', age: 18, sex: 'female' });
 
 // Get data for man
 const firstEntity = man.getEntity();
@@ -45,7 +33,7 @@ const all = getEntities();
 // Print entities count
 const count = getCount();
 
-// Get entity by entity.id
+// Get entity by id
 const entityById = getEntityById(0);
 
 // Get first entity
@@ -56,7 +44,3 @@ const last = getLastEntity();
 
 // Print all entities
 console.log(all);
-
-const filtered = filter(function (item) {
-    return item.age > 20 && item.sex === 'male'
-})
