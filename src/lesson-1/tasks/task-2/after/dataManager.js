@@ -7,7 +7,6 @@ let entityCollection = [];
 export function addEntity(x) {
     console.log("Add " +x.firstName + " Entity to Collection");
     entityCollection.push(x);
-
 }
 
 export function getEntities(){
