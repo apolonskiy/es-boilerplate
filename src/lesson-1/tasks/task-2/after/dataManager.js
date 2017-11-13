@@ -25,7 +25,7 @@ export function getEntityById(n){
 
 export function getFirstEntity(){
     console.log(entityCollection[0]);
-    return entityCollection[0]
+    return entityCollection[0];
 }
 
 export function getLastEntity(){
