@@ -1,4 +1,4 @@
-import Timer from '../after';
+import Timer from '../after/after';
 
 const timer = Timer();
 

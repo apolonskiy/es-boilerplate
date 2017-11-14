@@ -39,15 +39,16 @@ add(firstEntity);
 
 // Add woman to collection
 add(secondEntity);
+//
+// // Get all entities
+ const all = getEntities();
 
-// Get all entities
-const all = getEntities();
-
+//
 // Print entities count
 const count = getCount();
 
 // Get entity by entity.id
-const entityById = getEntityById(0);
+const entityById = getEntityById(1);
 
 // Get first entity
 const first = getFirstEntity();
@@ -56,6 +57,6 @@ const first = getFirstEntity();
 const last = getLastEntity();
 
 // Filter entities by callback
-const filtered = filter(item => item.sex === 'male' && item.age > 20);
+const filtered = filter(item => item.sex === 'male' && item.age>20);
 
-console.log(filtered);
+console.log("FILTERED: ", filtered);
