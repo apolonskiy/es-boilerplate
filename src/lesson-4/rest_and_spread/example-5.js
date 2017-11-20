@@ -8,4 +8,4 @@ const numbers = (num1, ...params) => {
 
 const data = [1, 2, 3, 4];
 
-numbers(...data);
+numbers(data);
