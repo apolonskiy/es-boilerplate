@@ -2,7 +2,7 @@ import Timer from '../after/after';
 
 const timer = Timer();
 
-timer.init(0, () => {
+timer.init(30, () => {
     console.log('Timer is configured.');
 });
 
