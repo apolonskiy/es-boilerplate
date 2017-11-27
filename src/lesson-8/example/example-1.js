@@ -1,6 +1,6 @@
 'use strict';
 
-function Temperature(degrees) {
+function Temperature(degrees1) {
     this.degrees = degrees;
 }
 
