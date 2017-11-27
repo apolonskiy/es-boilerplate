@@ -53,7 +53,7 @@ export function DataManager() {
             tempData.set(value);
         }
     })
-    return tempData.keys();
+    return Array.from(tempData.keys());
   };
 
 };
